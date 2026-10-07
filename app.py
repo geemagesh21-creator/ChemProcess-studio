@@ -464,5 +464,10 @@ def api_distil():
         'plot': base64.b64encode(buf.getvalue()).decode()
     })
 
+# GOOGLE SITE VERIFICATION ROUTE
+@app.route('/googlecca5c0ab9bab47be.html')
+def google_verify():
+    return "google-site-verification: googlecca5c0ab9bab47be.html"
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 8501)), debug=False)
